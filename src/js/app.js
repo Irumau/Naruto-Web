@@ -16,25 +16,25 @@ btnArray.forEach((btn, i) => {
 
         if (i === 0) {
             slideImg.forEach((img,index)=>{
-                img.setAttribute('src', `/src/assets/img/Naruto-slide${index}.webp`)
+                img.setAttribute('src', `./src/assets/img/Naruto-slide${index}.webp`);
             })
         }
 
         if(i === 1){
             slideImg.forEach((img,index)=>{
-                img.setAttribute('src', `/src/assets/img/Sasuke-slide${index}.webp`)
+                img.setAttribute('src', `./src/assets/img/Sasuke-slide${index}.webp`);
             })
         }
         
         if(i === 2){
             slideImg.forEach((img,index)=>{
-                img.setAttribute('src', `/src/assets/img/Kakashi-slide${index}.webp`)
+                img.setAttribute('src', `./src/assets/img/Kakashi-slide${index}.webp`);
             })
         }
 
         if(i === 3){
             slideImg.forEach((img,index)=>{
-                img.setAttribute('src', `/src/assets/img/Sakura-slide${index}.webp`)
+                img.setAttribute('src', `./src/assets/img/Sakura-slide${index}.webp`)
             })
         }
     })
