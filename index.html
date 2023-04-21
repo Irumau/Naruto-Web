@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/normalize.css">
+    <link rel="stylesheet" href="src/css/styles.css">
+    <script src="https://kit.fontawesome.com/ddec7cb4f9.js" crossorigin="anonymous"></script>
+    <title>Naruto</title>
+</head>
+<body>
+    <div class="page">
+        <!-- Main content -->
+        <section class="container">
+            <nav class="navbar">
+                <div class="navbar__content">
+                    <img class="navbar__logo" src="src/assets/img/Naruto_logo.png" alt="Naruto logo">
+                    <ul class="navbar__list">
+                        <li><a href="#">Exclusivos</a></li>
+                        <li><a href="#">Nuevos</a></li>
+                        <li><a href="#">Gift card</a></li>
+                        <li><a href="#">Find a store</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            
+            <section class="main-content">
+                <p class="main-content__know">Conoce</p>
+                <h1 class="main-content__title">Naruto</h1>
+                <p class="main-content__about">
+                    Naruto es una serie de manga escrita e ilustrada por Masashi Kishimoto. La obra narra la historia de un ninja adolescente llamado Naruto Uzumaki, quien aspira a convertirse en Hokage, líder de su aldea, con el propósito de ser reconocido como alguien importante dentro de la aldea y entre sus compañeros.
+                </p>
+            </section>
+
+
+            <section class="side-content">
+                <p>Naruto</p>
+                <button id="btnImg">
+                    <img class="side-content__character-img" src="src/assets/img/Naruto.webp" alt="Naruto Uzumaki">
+                </button>
+                <div></div>
+            </section>
+
+            <section class="footer-content">
+                <div>
+                    <button id="btnImg">
+                        <img class="footer-content__character-img" src="src/assets/img/Sasuke.webp" alt="Sasuke Uchiha">
+                    </button>
+                </div>
+                <div>
+                    <button id="btnImg">
+                        <img class="footer-content__character-img" src="src/assets/img/Kakashi.webp" alt="Kakashi Hatake">
+                    </button>
+                </div>
+                <div>
+                    <button id="btnImg">
+                        <img class="footer-content__character-img" src="src/assets/img/Sakura.webp" alt="Sakura Haruno">
+                    </button>
+                </div>
+            </section>
+        </section>
+
+
+        <!-- Loader -->
+        <section class="loader">
+            <div><img class="loader__img" src="src/assets/img/Simbolo_konoha.png" alt="Konoha"></div>
+            <div><img class="loader__img" src="src/assets/img/Simbolo_konoha.png" alt="Konoha"></div>
+            <div><img class="loader__img" src="src/assets/img/Simbolo_konoha.png" alt="Konoha"></div>
+        </section>
+    
+        <!-- Modal -->
+        <section class="modal hidden">
+            <div class="modal__content">
+                <button class="modal__close-btn" id="closeBtn"><i class="fa-solid fa-xmark"></i></button>
+
+                <div class="modal___content--slider">
+                    <input type="radio" name="slider" id="radio-1" checked>
+                    <input type="radio" name="slider" id="radio-2">
+                    <input type="radio" name="slider" id="radio-3">
+
+                    <div class="cards">
+                        <label for="radio-1" id="card-1" class="card">
+                            <img id="slideImg" class="slideImg slide-0">
+                        </label>
+                        <label for="radio-2" id="card-2" class="card">
+                            <img id="slideImg" class="slideImg slide-1">
+                        </label>
+                        <label for="radio-3" id="card-3" class="card">
+                            <img id="slideImg" class="slideImg slide-2">
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+    <script src="src/js/app.js"></script>
+</body>
+</html>
