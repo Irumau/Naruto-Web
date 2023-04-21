@@ -14,5 +14,8 @@
 
 ### What I gonna do
 <ul>
-  <li>Hola</li>
+  <li>Find a API about Naruto</li>
+  <li>I'll make a filter to find a character you want</li>
+  <li>I'm going to do a list of all characters</li>
+  <li>I'm going to do a section for each character. Here you can read a little description about him/her/it</li>
 </ul>
