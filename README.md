@@ -1,7 +1,7 @@
 # Naruto-Web
-<p align="center">
-  Web Page about Naruto under Contruction
-</p>
+
+##Web Page about Naruto under Contruction
+
 
 
 <p>This page have a loader screen with a nice animation Also have some more animation when these loader screen finish thats make the page more fancy</p>
