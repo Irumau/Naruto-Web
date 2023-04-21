@@ -28,7 +28,7 @@ btnArray.forEach((btn, i) => {
         
         if(i === 2){
             slideImg.forEach((img,index)=>{
-                img.src = `../../src/assets/img/Kakashi-slide${index}.webp`;
+                img.setAttribute('src', `../../src/assets/img/Kakashi-slide${index}.webp`);
             })
         }
 
