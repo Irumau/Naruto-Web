@@ -12,7 +12,7 @@
 
 
 
-### What I gonna do
+### What I'm going to do
 <ul>
   <li>Find a API about Naruto</li>
   <li>I'll make a filter to find a character you want</li>
